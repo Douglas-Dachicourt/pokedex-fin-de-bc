@@ -1,0 +1,205 @@
+body {
+  font-family: "Nintendo U", sans-serif;
+}
+
+header {
+  height: 100px;
+  width: 100vw;
+  border-bottom: 2px red solid;
+  display: flex;
+}
+
+header img {
+  height: 70px;
+}
+
+h1 {
+  color: rgb(23, 23, 67);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1130px;
+  /* border: 1px solid red; */
+}
+
+header > div:first-child {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  /* background-color: orange; */
+  padding-left: 30px;
+}
+
+header > div:last-child {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 30px;
+  gap: 50px;
+}
+
+.menu {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.Homepage {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: lightgray; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Homepage div {
+  /* background-color: orange; */
+  height: 100px;
+  width: 600px;
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  /* background-color: orange; */
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+article {
+  border: 1px solid black;
+  height: 170px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(185, 182, 182);
+}
+
+.mainsection {
+  /* background-color: orange; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 15px;
+}
+
+.nodecoration {
+  text-decoration: none;
+  color: inherit;
+}
+
+.loading {
+  height: 200px;
+}
+
+.poke-info {
+  /* background-color: orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pokemon-size {
+  height: 110px;
+}
+
+.typelist {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  gap: 20px;
+}
+
+.type {
+  font-size: 22px;
+  border: 2px solid gray;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: rgb(78, 71, 71);
+  text-decoration: none;
+}
+
+.maintypes {
+  text-decoration: none;
+  color: rgb(82, 78, 78);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.maintypes p {
+  border: 1px solid gray;
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.maintypes p:hover {
+  background-color: rgb(107, 103, 97);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(42, 6, 6);
+}
+
+.survol:hover {
+  background-color: rgb(247, 241, 241);
+  border: 2px solid rgb(173, 173, 49);
+  color: rgb(144, 45, 45);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.survoltype:hover {
+  background-color: rgb(21, 101, 21);
+  color: white;
+  font-size: 22px;
+  border: 2px solid rgb(216, 74, 74);
+}
+
+footer {
+  height: 150px;
+  background-color: rgb(243, 224, 113);
+  border-top: 1px solid rgb(6, 6, 85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: rgb(6, 6, 85);
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: inherit;
+}
+
+footer a:hover {
+  text-decoration: 1px solid rgb(94, 94, 36) underline;
+  color: rgb(108, 9, 9);
+  font-size: 20px;
+  font-weight: bold;
+}
